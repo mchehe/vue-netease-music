@@ -3,7 +3,7 @@
   "version": "3.4.1",
   "private": true,
   "scripts": {
-    "dev": "npm run serve",
+    "dev": "npm run publish",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "publish": "npm run build && cd music && now",
