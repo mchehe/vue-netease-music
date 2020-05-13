@@ -10,13 +10,13 @@ module.exports = {
       open: true,
       proxy: {
         '/netease-api': {
-          target: 'http://localhost:80',
+          target: 'http://localhost:3000',
           pathRewrite: { '^/netease-api': '' },
           changeOrigin: true,
           secure: false,
         },
       },
-      port: 8888,
+      port: 443,
     },
     externals: isProd ? {
       vue: 'Vue',
