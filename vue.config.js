@@ -10,7 +10,7 @@ module.exports = {
       open: true,
       proxy: {
         '/netease-api': {
-          target: 'http://localhost:3000',
+          target: 'http://localhost:80',
           pathRewrite: { '^/netease-api': '' },
           changeOrigin: true,
           secure: false,
