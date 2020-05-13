@@ -23,7 +23,7 @@ echo
 git cz
 echoSuccess 'commit success'
 echo
-echoCommon "选择要发布的方式?"
+echoCommon "选择要发布的方式1?"
 select var in release-major release-minor release-patch;
 do
     break
